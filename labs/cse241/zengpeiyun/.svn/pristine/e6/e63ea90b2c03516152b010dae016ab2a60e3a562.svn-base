@@ -1,0 +1,29 @@
+package lab1;
+
+public class ClosestPair {
+
+    public final static double INF = java.lang.Double.POSITIVE_INFINITY;
+
+    /** 
+     * Given a collection of points, find the closest pair of point and the
+     * distance between them in the form "(x1, y1) (x2, y2) distance"
+     *
+     * @param pointsByX points sorted in nondecreasing order by X coordinate
+     * @param pointsByY points sorted in nondecreasing order by Y coordinate
+     * @return Result object containing the points and distance
+     */
+    static Result findClosestPair(XYPoint pointsByX[], XYPoint pointsByY[]) {
+       // YOUR CODE GOES HERE
+
+       Result rMin = new Result(pointsByX[0], pointsByX[1], INF);
+       return rMin;
+    }
+    
+    static int abs(int x) {
+        if (x < 0) {
+            return -x;
+        } else {
+            return x;
+        }
+    }
+}

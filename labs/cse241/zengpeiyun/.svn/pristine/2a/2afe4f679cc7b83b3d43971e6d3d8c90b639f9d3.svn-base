@@ -1,0 +1,20 @@
+package lab1;
+
+public class Sort {
+    
+    //================================= sort =================================
+    //
+    // Input: array A of XYPoints refs 
+    //        lessThan is the function used to compare points
+    //
+    // Output: Upon completion, array A is sorted in nondecreasing order
+    //         by lessThan.
+    //
+    // DO NOT USE ARRAYS.SORT.  WE WILL CHECK FOR THIS.  YOU WILL GET A 0.
+    // I HAVE GREP AND I AM NOT AFRAID TO USE IT.
+    //=========================================================================
+    public static void msort(XYPoint[] A, Comparator lessThan) {
+	   //Implement your sort here.  (use mergeSort).
+    }
+    
+}
